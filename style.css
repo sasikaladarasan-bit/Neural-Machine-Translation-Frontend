@@ -1,0 +1,60 @@
+h1{
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px lightblue;
+}
+.card{
+    width: 900px;
+    max-width: 900px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    padding: 20px;
+    margin: 50px auto;
+}
+h2{
+    color: blueviolet;
+    text-decoration: underline;
+    text-align: center;
+}
+h3{
+    color: brown;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.title{
+    text-align: end;
+}
+.header img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black ;
+    margin-right: 70px;
+    width: 250px;
+    height: 150px;
+}
+table{
+    border: 2px solid black;
+    width:100%;
+    border-collapse: collapse;
+}
+th{
+    
+    background-color: brown;
+}
+body{
+    background-color:azure;
+}
+button{
+    background-color: lightblue;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+

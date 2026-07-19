@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NMT PROSCESS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="welcomemsg()">
+
+        <div class="card">
+            <div class="header">
+                <img  src="translation.jpeg"  alt="translate" width="250">
+            
+            <div class="title">
+                <h1>Neural Machine Translation System</h1><br>
+                <hr>
+                <h2>English -> Tamil Translation.</h2><br>
+            </div>
+            </div>
+            <div class="content">
+            <h3><u><i>Objctive of the Project.</i></u></h3>
+            <ul>
+                <li>To Translate Eng Text into Tamil Automatically.</li>
+                <li>To improve translation accuracy using DL.</li>
+            </ul>
+            <hr>
+            <h3><u><i>Tools.</i></u></h3>
+            <table border="1">
+                <tr>
+                    <th>Tools Name</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr>
+                    <td>Anaconda</td>
+                    <td>Manage the Package.</td>
+                </tr>
+                <tr>
+                    <td>NLTK</td>
+                    <td>The Process Of Tokenization & Text Processing.</td>
+                </tr>
+                <tr>
+                    <td>BLEU Score</td>
+                    <td>It Check Accuracy Of Translate Sentences.</td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+            <h3><u><i>Features.</i></u></h3>
+            <ol>
+                <li>AI Powered</li>
+                <li>Hugging Face</li>
+                <li>Transformer Architecture</li>
+            </ol>
+            <hr>
+
+            <h3><u><i>Advantage.</i></u></h3>
+            <p>✔️ Handling Tamil Grammar.</p>
+            <p>✔️ High Contextual Understanding.</p>
+            <p>✔️ Pre-trained Model Support.</p>
+            <p>✔️ Gives Better & Accurate Translations.</p>
+            <hr>
+            
+            <h3><u><i>English Input.</i></u></h3>
+            <label for="input"> English Text:</label><br>
+            <textarea id="input" rows="5" cols="60" placeholder="Enter English text here..." onkeyup="countchar()"></textarea><br>
+            <p id="count" >Characters:0</p>
+            <br>
+            <button id="btn" onclick="translatenow()">Translate Now</button><br><br>
+            <button onclick="cleartext()">Clear</button>
+
+            <h3><u><i>Tamil output.</i></u></h3>
+            <label for="output">Tamil Text:</label><br>
+            <textarea id="output" rows="5" cols="60" placeholder="Tamil Translation appears here..." readonly></textarea><br>
+        <footer>
+            <hr>
+            <p><b>Developed by:</b> K.Harsha</p>
+            <p><b>B.Sc Computer Science With Data Analytics</b></p>
+        </footer> 
+        
+            </div>  
+        </div> 
+        
+     <script src="script.js"></script>      
+    </body>
+</html>
